@@ -45,6 +45,8 @@ namespace Twilio.Converters
                 return string.Empty;
             }
 
+            originalString = input.AbsoluteUri;
+            
             return originalString;
         }
     }
